@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+#header {
+padding: 10px,0;
+
+	.logo{
+		font-family: 'Roboto', sans-serif;
+		font-size: 36px;
+		font-weight: 700;
+		display: inline-block;
+	}
+	.menu{
+		display: inline-block;
+		float: right;
+
+		a {
+			font-size: 16px;
+			font-weight: 300px;
+
+			li {
+				padding: 10px,15px;
+				display: inline-block;
+			}
+
+			&:hover{
+				color: red;
+			}
+		}
+	}
+}

@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+}
+#header {
+padding: 10px 0;
+}
+#header .logo {
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	display: inline-block;
+	margin-left: 20px;
+}
+#header .menu {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+
+}
+#header .menu a {
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+}
+#header .menu a li {
+	padding: 10px 15px;
+	display: inline-block;
+	color: #000;
+}
+#header .menu .link:hover {
+	color: red;
+}
+#content-area{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#content-area .model{
+	width: 50%;
+	text-align: center;
+	float:left;
+}
+#content-area .model img{
+	max-width: 500px;
+}
+#content-area  {
+	display: inline-block;
+}
+#content-area .info{
+	display: inline-block;
+	width:50%;
+	float: left;
+}
+#content-area .info h5{
+	display: inline-block;
+	font-size: 16px;
+	background-color: red;
+	color:white;
+	padding:2px 8px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+#content-area .info h1{
+	margin-top: 10px;
+	display: inline-block;
+	margin-right: 200px;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.3;
+}
+#content-area .info p{
+	margin-top: 10px;
+	display: inline-block;
+	font-weight: 100;
+	line-height: 1.5;
+	text-align: justify;
+	margin-right: 200px;
+	color:rgb(152, 152, 152);
+}
+#content-area .info .size .title{
+	font-size: 18px;
+	font-weight: 500;
+}
+#content-area .info .size .sizes li{
+	font-size: 12px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+}
+#content-area .info .size .sizes .circle{
+	height: 30px;
+	width: 30px;
+	padding: 10px 0;
+}
+#content-area .info .size .sizes .semi-circle{
+	height: 30px;
+	padding: 10px 10px;
+	border-radius: 30px;
+}
+#content-area .info .action-btns .red-hollow-btn{
+	text-decoration: none;
+	border: 2px solid red;
+	display: inline-block;
+	padding: 20px;
+	color:red;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+#content-area .info .action-btns .red-hollow-btn .price{
+	text-decoration: none;
+	font-size: 24px;
+	margin-right: 20px;
+}
+#content-area .info .action-btns .light-grey-btn{
+	text-decoration: none;
+	background: lightgray;
+	color:#8e8585;
+	padding: 20px;
+	font-size: 10px;
+	letter-spacing: 1px;
+	min-height: 30px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+.ko{
+	font-style: italic;
+}

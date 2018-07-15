@@ -1,0 +1,59 @@
+body{
+	font-family: 'Roboto', sans-serif;
+  background-image: url(http://globalmedicalco.com/photos/globalmedicalco/8/39764.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.login-page{
+  width: 350px;
+  padding: 10% 0 0;
+  margin: auto;
+  height: 600px;
+}
+.form{
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0,4,53,0.8);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+	width: 50vh;
+	height: 70vh;
+}
+.login-page .form .register-form fieldset{
+  border-width: thick;
+  border-style: outset;
+	padding: 30px;
+}
+.login-page .form .register-form legend{
+  color:#f7f19c;
+  font-size: 30px;
+}
+.login-page .form .register-form input[type=text],input[type=password], input[type=email]{
+	font-family: "Roboto" sans-serif;
+	outline: 1;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding: 15px;
+	margin: 0 0 30px;
+	background: #f2f2f2f2;
+}
+.login-page .form .register-form input[type=submit]{
+	width: 100%;
+	background: #2d032d;
+	padding: 15px;
+	color: white;
+}
+.login-page .form .register-form input[type=submit]:hover{
+	background: #0f0115;
+}
+.login-page .form .register-form p{
+	color: #f7f19c;
+}
+.login-page .form .register-form p a{
+	text-decoration: none;
+	color: #9e9e9e;
+}
